@@ -83,15 +83,19 @@ nav a:hover{
 #p1 {
     position: absolute;
     left: 130px;
-    width: 30%;
     font-family:'Permanent Marker', cursive;
+    width: 308px;
+}
+
+#p1 p{
+    margin: 0;
 }
 
 #p2 {
     position: absolute;
-    right: -130px;
-    width: 30%;
+    right: 130px;    
     font-family:'Permanent Marker', cursive;
+    padding-right: 0;
 }
 
 h3{
