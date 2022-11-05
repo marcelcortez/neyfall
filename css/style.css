@@ -4,9 +4,10 @@
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #38b6ff;
     padding: 0;
@@ -40,7 +41,7 @@ nav a {
     -webkit-text-stroke: 1px rgb(168, 147, 28);
 }
 
-nav a:hover{
+nav a:hover {
     font-size: 40px;
     color: rgb(255, 247, 139);
     transition: 400ms;
@@ -83,29 +84,29 @@ nav a:hover{
 #p1 {
     position: absolute;
     left: 130px;
-    font-family:'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
     width: 308px;
 }
 
-#p1 p{
+#p1 p {
     margin: 0;
 }
 
 #p2 {
     position: absolute;
-    right: 130px;    
-    font-family:'Permanent Marker', cursive;
+    right: 130px;
+    font-family: 'Permanent Marker', cursive;
     padding-right: 0;
 }
 
-h3{
+h3 {
     color: white;
     margin-bottom: 30px;
     font-size: 40px;
-    font-family:'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.sobre p{
+.sobre p {
     width: 40%;
     color: white;
     font-weight: bold;
@@ -122,4 +123,8 @@ h3{
     align-items: center;
     flex-direction: column;
     padding: 0;
+}
+
+iframe {
+    border: none;
 }
